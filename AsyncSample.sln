@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WapperForSyncMethod", "APM\WapperForSyncMethod.csproj", "{07E9A224-6887-47CD-A2D0-6105046497F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EAP", "EAP\EAP.csproj", "{87F3D13D-41AB-4954-9153-6FF93BE0638A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APM", "APM", "{B092D93C-E46F-4418-9025-FEA1391D7910}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{1E0B0FAC-8C77-41F7-8C34-9B57D2FA99C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockingUsingAsyncWaitHandle", "BlockingUsingAsyncWaitHandle\BlockingUsingAsyncWaitHandle.csproj", "{5F3033DF-770D-4650-893A-698AD7E2639F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingAsyncCallback", "UsingAsyncCallback\UsingAsyncCallback.csproj", "{89B4D602-662C-4CCC-92E9-3082B8B452DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07E9A224-6887-47CD-A2D0-6105046497F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E9A224-6887-47CD-A2D0-6105046497F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E9A224-6887-47CD-A2D0-6105046497F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07E9A224-6887-47CD-A2D0-6105046497F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87F3D13D-41AB-4954-9153-6FF93BE0638A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87F3D13D-41AB-4954-9153-6FF93BE0638A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87F3D13D-41AB-4954-9153-6FF93BE0638A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87F3D13D-41AB-4954-9153-6FF93BE0638A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F3033DF-770D-4650-893A-698AD7E2639F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F3033DF-770D-4650-893A-698AD7E2639F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F3033DF-770D-4650-893A-698AD7E2639F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F3033DF-770D-4650-893A-698AD7E2639F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89B4D602-662C-4CCC-92E9-3082B8B452DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89B4D602-662C-4CCC-92E9-3082B8B452DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89B4D602-662C-4CCC-92E9-3082B8B452DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89B4D602-662C-4CCC-92E9-3082B8B452DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{07E9A224-6887-47CD-A2D0-6105046497F1} = {B092D93C-E46F-4418-9025-FEA1391D7910}
+		{5F3033DF-770D-4650-893A-698AD7E2639F} = {B092D93C-E46F-4418-9025-FEA1391D7910}
+		{89B4D602-662C-4CCC-92E9-3082B8B452DD} = {B092D93C-E46F-4418-9025-FEA1391D7910}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A1D9A97-A4E4-4154-920D-1483B40E4B40}
+	EndGlobalSection
+EndGlobal
